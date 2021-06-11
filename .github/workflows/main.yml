@@ -29,6 +29,7 @@ jobs:
       - name: triggering shell script
         run: sh ./demo.sh
   deploy:
+     runs-on: ubuntu-latest 
      steps:
         - name: deploy
           run: sh ./demo.sh
