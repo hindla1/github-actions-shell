@@ -28,5 +28,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: triggering shell script
         run: sh ./demo.sh
+  deploy:
+     steps:
+        - name: deploy
+          run: sh ./demo.sh
+        
 
 
